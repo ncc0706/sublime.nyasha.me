@@ -21511,7 +21511,8 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
     margin: 5px
 }
 
-.parsley-errors-list {
+/***parsley start***/
+/*.parsley-errors-list {
     list-style: none;
     padding: 0
 }
@@ -21554,7 +21555,8 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 
 .parsley-error-list {
     color: #a94442
-}
+}*/
+/***parsley end***/
 
 .piechart {
     position: relative;
