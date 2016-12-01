@@ -27,9 +27,9 @@
                         会员管理系统
                     </header>
                     <div class="p15">
-                        <form role='form' action='' data-parsley-validate method="post">
-                            <input class="form-control input-lg mb25" placeholder=用户名 autofocus required>
-                            <input type="password" class="form-control input-lg mb25" placeholder="密码" required>
+                        <form role='form' action='${base}/account/signin' data-parsley-validate method="post">
+                            <input class="form-control input-lg mb25" name="username" placeholder=用户名 autofocus required value="admin">
+                            <input type="password" class="form-control input-lg mb25" name="password" placeholder="密码" required value="admin">
                             <div class="show">
                                 <div class="pull-right"><a href=forgot.html>Forgot password?</a></div>
                                 <label class="checkbox"> <input type="checkbox" value=remember-me>Remember me </label>
