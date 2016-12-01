@@ -16,7 +16,7 @@
     <!--加载系统属性属性文件-->
     <context:property-placeholder location="classpath:config/system.properties"/>
 
-    <mvc:resources mapping="/static/**" location="/static/"/>
+    <mvc:resources mapping="/assets/**" location="/assets/"/>
 
     <mvc:view-controller path="/" view-name="redirect:/home"/>
 
